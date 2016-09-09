@@ -1,3 +1,4 @@
 from django.contrib import admin
+from grills.models import Grill
 
-# Register your models here.
+admin.site.register(Grill)
